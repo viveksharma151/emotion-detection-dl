@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# DeepFace model weights (large files)
+.deepface/
+deepface/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Test images (don't commit personal photos)
+test_images/
+sample_images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Distribution
+dist/
+build/
+*.egg-info/
